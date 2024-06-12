@@ -6,7 +6,7 @@ describe("Skills", () => {
 
   test("render correctly", () => {
     render(<Skills skills={skills} />);
-    const listElement = screen.getByRole("list");
+    const listElement = screen.getByRole("list"); 
     expect(listElement).toBeInTheDocument();
   });
 
