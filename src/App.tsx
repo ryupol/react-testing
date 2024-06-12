@@ -1,4 +1,4 @@
-import AppProviders from "./components/providers/app-providers";
+import AppProviders from "./providers/app-providers";
 import MuiMode from "./components/mui/mui-mode";
 import "./App.css";
 
